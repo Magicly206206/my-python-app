@@ -1,3 +1,4 @@
+from app import hello
 
-def hello():
-    return "Hello, GitHub Actions!"
+def test_hello():
+    assert hello() == "Hello, CI/CD!"
